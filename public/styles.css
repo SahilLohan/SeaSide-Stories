@@ -1,0 +1,21 @@
+.body-content{
+    min-height: 90vh;
+}
+
+.navbar{
+    padding:5px 20px;
+    border-radius: 10px;
+}
+.bg-custom{
+    background-color: #37631cbd;
+}
+.cntr{
+    margin: auto;
+    text-align: center;
+}
+
+foot{
+    text-align: center;
+    margin: auto;
+    background-color: #37631cbd;
+}
