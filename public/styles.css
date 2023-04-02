@@ -4,7 +4,7 @@
 
 .navbar{
     padding:5px 20px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0;    
 }
 .bg-custom{
     background-color: #37631cbd;
@@ -15,7 +15,5 @@
 }
 
 foot{
-    text-align: center;
-    margin: auto;
-    background-color: #37631cbd;
+    border-radius:  0px 0px 10px 10px;   
 }
