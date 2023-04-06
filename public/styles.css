@@ -2,6 +2,10 @@
     min-height: 90vh;
 }
 
+h1,.btn,h3{
+    margin-top: 30px;
+}
+
 .navbar{
     padding:5px 20px;
     border-radius: 10px 10px 0px 0;    
@@ -9,7 +13,16 @@
 .bg-custom{
     background-color: #37631cbd;
 }
+.form-group{
+    margin-top: 20px;
+}
 .cntr{
+    margin: auto;
+    text-align: center;
+}
+
+.line{
+    padding: 10px 0;
     margin: auto;
     text-align: center;
 }

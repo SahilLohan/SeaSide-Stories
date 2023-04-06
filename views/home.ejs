@@ -3,6 +3,30 @@
 
 <div class="body-content container">
     <h1>Home</h1>
+    <p> <strong>Welcome to my blog! My name is Sahil</strong> ,
+        and I'm excited to share my thoughts,
+         ideas, and experiences with you. This
+         website is a creative outlet for me to
+         express myself and connect with others
+         who share similar interests. 
+         Through my writing, I hope to inspire and entertain you
+         , while also sparking meaningful conversations 
+         about the things that matter most. Whether it's 
+         travel, food, culture, or just everyday life, I 
+         invite you to join me on this journey of discovery 
+         and exploration. So sit back, relax, 
+         and let's have some fun!</p>
+
+        
+    <h1>Blogs</h1>
+    <!-- if there are any blog print them using a loop -->
+    <%if(items.length==0){%>
+        <p>Oh No! There are no blogs written Yet!!!</p>
+    <%}else{for (var i = 0; i < items.length; i++) { %>
+        <h3><%=titles[i]%></h3>
+        <p><%=items[i]%> </p>
+    <% } }%>
+        <!-- Write code here -->
 </div>
     
 
